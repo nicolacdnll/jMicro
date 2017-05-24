@@ -1,0 +1,40 @@
+/*---------------------------+
+| Structure of the resources |
++---------------------------*/
+
+fonts
+gui
++- buttons
++- icons
++- panels
+languages
+images
+sounds
+
+/*-------------+
+| Descriptions |
++-------------*/
+
+gui: 
+All the components used for the interface
+
+gui/buttons: 
+The images of the background of the buttons.
+These images have the name that follow this pattern:
+btn-widthxheight(_down)*.png
+Where:
+Width and height are the actual width and height of the image in pixels. The button itslelf can be smaller due to the extra pixels in the image used for add shadows so to have a 3D looking button.
+The optional _down part indicates, when present, that the background depicts a pressed button. 
+
+gui/icons: 
+All the icon used, it contains also the icons for the buttons
+
+gui/panels:
+Two images of the left and right panel.
+NOTE:
+THESE TWO IMAGES SHOULD NOT BE USED
+
+images:
+The images (icons and more) used for the old interface.
+NOTE: 
+NOT USED ANYMORE.
